@@ -49,12 +49,14 @@ This action assumes that your dbt project is in the top-level directory of your 
 ```
 **Important:** dbt projects use a `profiles.yml` file to connect to your dataset. **dbt-coves-action** currently requires `.config/profiles.yml` to be in your repo unless changed using the `--profiles-dir` argument or the `DBT_PROFILES_DIR` environment variable.
 
+## Thanks
+
+This repo was inspired on https://github.com/mwhitaker/dbt-action. Thanks to [Michael Whitaker](https://github.com/mwhitaker).
+
 ## Suggested workflow and other tips
 
 Here is a [sample workflow](https://github.com/mwhitaker/dbt-action-sample) that sends dbt console logs by email.
 
-## Bugs and feature requests
-Please submit via [Github issues](https://github.com/mwhitaker/dbt-action/issues).
 ## License
 
 [MIT](LICENSE)
