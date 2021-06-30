@@ -1,0 +1,24 @@
+name: "dbt coves action"
+description: "Run and schedule dbt and dbt-coves commands directly in your Github repo"
+author: "Datacoves"
+
+inputs:
+  command:
+    description: "command"
+    default: "dbt run"
+    required: true
+  dbt_project_folder:
+    description: "dbt project folder. Defaults to ."
+    default: "."
+    required: false
+outputs:
+  result:
+    description: "Success or failure of the dbt command"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.command }}
+branding:
+  icon: 'database'  
+  color: 'purple'
