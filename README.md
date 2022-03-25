@@ -1,6 +1,13 @@
 # ci-basic-action
 
-A GitHub Action to run [dbt](https://www.getdbt.com) and [dbt-coves](https://www.datacoves.com) commands in a Docker container. You can use [dbt commands](https://docs.getdbt.com/reference/dbt-commands) such as `run`, `test` and `debug`. This action captures the dbt console output for use in subsequent steps. 
+A GitHub Action to run [dbt < 1.0](https://www.getdbt.com) and [dbt-coves](https://www.datacoves.com) commands in a Docker container. You can use [dbt commands](https://docs.getdbt.com/reference/dbt-commands) such as `run`, `test` and `debug`. This action captures the dbt console output for use in subsequent steps. 
+
+## Supported versions
+
+| Library  | Version  |
+|---|---|
+| dbt  | 0.21.1 |
+| dbt-coves  | 0.21.1a20  |
 
 ## Usage
 
