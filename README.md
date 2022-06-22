@@ -7,7 +7,7 @@ A GitHub Action to run [dbt <= 1.1.1](https://www.getdbt.com) and [dbt-coves](ht
 | Library  | Version  |
 |---|---|
 | dbt  | 1.1.1 |
-| dbt-coves  | 1.1.1a0  |
+| dbt-coves  | 1.1.1a1  |
 
 ## Usage
 
