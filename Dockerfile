@@ -1,4 +1,4 @@
-FROM datacoves/ci-basic:0.5.202211111706-22bac7e7
+FROM datacoves/ci-basic:1.0.202211221321-9f49aafe
 # The source code for this image is in https://gitlab.com/datacoves/datacoves/-/tree/main/src/ci
 
 COPY entrypoint.sh /entrypoint.sh
